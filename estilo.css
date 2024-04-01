@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*Paleta de cores do projeto
+#254029 verde escuro 
+#2D5930 verde médio
+#36733A verde claro
+#F2DF80 amarelo
+#0D0D0D preto
+
+
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+   background-image: linear-gradient( to right  ,#0d0d0d 38%,#254029 ,#2d5930,#36733a ) ;
+   text-align: center; /*Centraliza horizontalmente o conteúdo*/
+   padding: 20px 0;/*adiciona um espaçamento em cima e embaixo do cabeçalho*/
+
+
+
+}
+
+.logo-container {
+    display: inline-block;/*permite que a largura da div se ajuste ao tamanho da imagem*/
+    
+}
+
+.logo-container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura dp contêiner pai */
+    height: auto; /*Mantém a proporção da imagem*/
+}
+
+a{
+font: normal 2em arial,sans-serif;
+color:black;
+text-decoration: none;
+margin-left: 15px;
+
+}
+
+a:hover {
+    background-color: #36733a;
+    border-radius: 30px;
+    border: solid black;
+    transition: 0.5s;
+}
+
+nav{
+    background-color: #F2DF80;
+}
